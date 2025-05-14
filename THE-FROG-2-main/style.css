@@ -1,0 +1,156 @@
+@import "./assets/styles/button.css";
+@import "./assets/styles/footer.css";
+@import "./assets/styles/reservation.css";
+@import "./assets/styles/room.css";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+
+  background: url(./assets/images/bllue\ hotel.jpeg)
+  no-repeat center center fixed;
+  background-size: cover;
+ 
+
+}
+
+
+.hero {
+  background-image: ;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+.hero img {
+
+
+}
+
+.hero-text h1 {
+  font-size: 5em;
+  color: #ffffff;
+  font-style: Serif;
+  text-shadow: 2px 2px 4px #003366;
+}
+
+.hero-text p {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+/*
+.btn {
+  padding: 0.75em 1.5em;
+  background-color: #ff6f61;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  
+  
+}
+.btn :hover{
+  transform: scale(1.05);
+
+}
+*/
+
+.section {
+  padding: 3em 1em;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+/*
+.room-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  margin-top: 2em;
+  
+}
+
+.room-card {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 300px;
+}
+.room-card:hover {
+  transform: scale(1.05);
+}
+.room-card img 
+{
+  
+
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+
+}
+#rooms h2 {
+  color: #ffffff;
+}
+
+.room-card h3 {
+  margin: 0.5em 0 0;
+}
+
+.room-card p {
+  padding: 0 1em 1em;
+  color: #555;
+}
+
+.reservation-form {
+  display: grid;
+  gap: 1em;
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+
+.reservation-form label {
+  display: 
+  font-weight: bold;
+}
+
+.reservation-form input,
+.reservation-form select {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.25em;
+}
+
+.reservation-form button {
+  background-color: #20232a;
+  color: white;
+  padding: 0.75em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reservation-form button:hover {
+  background-color: #333740;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+}
+*/
